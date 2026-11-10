@@ -543,3 +543,13 @@ hr {
 #connect a.googleplus:hover {
 	background-position: 0 -197px;
 }
+
+/* Remove bullets from the travel listings. */
+#contents .body ul {
+    list-style: none !important;
+    padding-left: 0;
+}
+
+#contents .body ul li {
+    list-style: none !important;
+}
